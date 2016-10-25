@@ -68,8 +68,8 @@ class ViewController: UIViewController {
                 lbl3.text = String(p1/p2)
                 btn3.setTitle(String(p1/p2), for: UIControlState())
             } else {
-                lbl3.text = String(format: "%.3f",Float(p1)/Float(p2))
-                btn3.setTitle(String(format: "%.3f",Float(p1)/Float(p2)), for: UIControlState())
+                lbl3.text = String(format: "%.1f",Float(p1)/Float(p2))
+                btn3.setTitle(String(format: "%.1f",Float(p1)/Float(p2)), for: UIControlState())
             }
         } else {
             lbldivzero.isHidden = false
